@@ -1,0 +1,7 @@
+package com.dullinsub.domain;
+
+public class CriteriaReply {
+	int amount = 10;
+	Long lastRno = 0L;
+	
+}

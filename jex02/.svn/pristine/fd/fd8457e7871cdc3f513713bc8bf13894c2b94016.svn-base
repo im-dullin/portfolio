@@ -1,0 +1,15 @@
+package com.dullinsub.mapper;
+
+import com.dullinsub.domain.ReplyVO;
+
+public interface ReplyMapper {
+
+	void insert(ReplyVO vo);
+	
+	ReplyVO read(long rno);
+
+	void delete(long l);
+
+	void update(ReplyVO replyVO);
+
+}
